@@ -1,0 +1,367 @@
+@media (max-width:1400px) {
+    .header__bg {
+        max-width: 700px;
+        margin: 50px 0 0 50px;
+
+    }
+
+    .header__content {
+        column-gap: 0;
+        margin: 0 auto;
+    }
+
+    .creativ__content {
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .medi {
+        margin: 0 auto;
+    }
+
+    .dolor__img {
+        display: none;
+    }
+
+    .dolor__left::after {
+        display: none;
+    }
+
+    .dolor__content {
+
+        justify-content: center;
+        background: rgb(71, 69, 69);
+        box-shadow: rgb(0, 0, 0, 0, 5);
+        border-radius: 10px;
+        max-width: max-content;
+        margin: 0 auto;
+    }
+
+    .dolor__content::after {
+        display: none;
+    }
+
+    .dolor__right::after {
+        display: none;
+    }
+
+    .footer::after {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+    .nav__content {
+        max-width: 900px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .header__content {
+        justify-content: space-between;
+        padding-left: 10px;
+        margin: 0 auto;
+        padding-left: 50px;
+
+    }
+
+    .header__title {
+        width: 300px;
+        font-size: 50px;
+    }
+
+    .header__txt {
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .header__title:after {
+        left: 65px;
+        top: 65px;
+        max-width: 200px;
+        width: 100%;
+    }
+
+    .header__left::after {
+        display: none;
+    }
+
+    .charging__box {
+        flex-wrap: wrap;
+        margin: 0 auto;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .charging__menu {
+        flex-wrap: wrap;
+        margin: 0 auto;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .stts__content {
+
+        flex-wrap: wrap;
+        gap: 30px;
+        margin: 70px 0;
+        justify-content: center;
+    }
+
+    .footer__content {
+        gap: 30px;
+       justify-content: center;
+       padding: 0 20px;
+    }
+
+}
+
+@media (max-width:1100px) {
+    .header__right::after {
+        display: none;
+
+    }
+
+    .header__right {
+        position: absolute;
+    }
+
+    .header__content {
+        justify-content: center;
+    }
+
+    .header__left {
+        text-align: center;
+        z-index: 1;
+    }
+
+    .header__bg {
+        margin: 0;
+    }
+
+    .header__title {
+        width: 400px;
+        font-size: 50px;
+        padding-bottom: 40px;
+
+    }
+
+    .header__txt {
+
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .med {
+        margin: 0 auto;
+    }
+
+    .header__left {
+        padding: 100px 0 150px;
+    }
+}
+
+@media (max-width:992px) {
+    .nav__content {
+        max-width: 730px;
+        width: 100%;
+    }
+
+    .header__bg {
+        max-width: 500px;
+    }
+
+    .header__title {
+        font-size: 35px;
+        padding-bottom: 50px;
+    }
+
+    .header__title::after {
+        left: 90px;
+        top: 50px;
+    }
+
+    .header__bg {
+        padding-top: 50px;
+    }
+
+    .dolor {
+        margin: 0 30px;
+    }
+
+    .dolor__title {
+        font-size: 24px;
+        line-height: 100%;
+    }
+
+    .dolor__name {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}
+
+@media (max-width:768px) {
+    .nav__box-link {
+        font-size: 14px;
+    }
+
+    .link {
+        padding: 10px 20px;
+        font-size: 14px;
+        line-height: 100%;
+    }
+
+    .nav__content {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .header__bg {
+        display: none;
+    }
+
+    .header__content {
+        padding: 0;
+    }
+
+    .header__left {
+        padding: 80px 0 100px;
+    }
+
+    .creativ__title {
+        font-size: 25px;
+    }
+
+    .dolor__title {
+        font-size: 18px;
+    }
+
+    .dolor__list {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .dolor__chek {
+        font-size: 12px;
+
+    }
+
+  .footer{
+    margin-top: 50px;
+  }
+
+    .media{
+        display: none;
+    }
+
+ 
+}
+
+@media (max-width:576px) {
+
+
+    .header__subtitle {
+        font-size: 16px;
+    }
+
+    .header__title {
+        font-size: 25px;
+    }
+
+    .header__txt {
+        font-size: 12px;
+        width: 250px;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .charging__menu-txt {
+        font-size: 16px;
+    }
+
+    .dolor__title {
+        font-size: 16px;
+    }
+
+    .dolor__chek {
+        padding: 0;
+    }
+
+    .dolor__right {
+        padding: 50px 30px;
+
+    }
+
+    .stts__content {
+        display: none;
+    }
+}
+
+@media (max-width:450px) {
+    .nav__box {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .header__left {
+        padding: 50px 0 70px;
+    }
+
+    .header__title {
+        display: none;
+    }
+
+    .header__subtitle {
+        width: 130px;
+        margin: 0 auto;
+    }
+
+    .header__txt {
+        margin: 0;
+        padding: 20px 0 20px;
+    }
+
+    .creativ__title {
+        font-size: 16px;
+    }
+
+    .creativ__txt {
+        font-size: 12px;
+    }
+
+    .creativ__subtitle {
+        font-size: 16px;
+    }
+
+    .avail__title {
+        font-size: 16px;
+    }
+
+    .avail__txt {
+        font-size: 12px;
+        width: 300px;
+    }
+
+    .dolor__chek {
+        width: 100px;
+
+    }
+
+    .input {
+        padding: 9px 0 9px 15px;
+    }
+
+    .footer__content{
+        justify-content: start;
+        padding-left: 50px;
+    
+    }
+}
+
+@media (max-width:320px) {}
