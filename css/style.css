@@ -556,34 +556,3 @@
     text-transform: capitalize;
 }
 
-.delay-1s {
-    animation-delay: 0.4s;
-}
-
-.delay-2s {
-    animation-delay: 0.8s;
-}
-
-.delay-3s {
-    animation-delay: 1.2s;
-}
-
-.delay-4s {
-    animation-delay: 1.6s;
-}
-
-.delay-5s {
-    animation-delay: 2s;
-}
-.delay-6s {
-    animation-delay: 2.4s;
-}
-
-.delay-7s {
-    animation-delay: 2.8s;
-}
-
-.delay-8s {
-    animation-delay: 3.2s;
-}
-
